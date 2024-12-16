@@ -1,0 +1,123 @@
+[{
+    "album_id": 1,
+    "tytul": "Dawn FM",
+    "wykonawca": "The Weekend",
+    "zdjecia": [{
+        "nazwaPliku": "images_900x600/_K5I7969",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [188,52,648,463],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "images_900x600/_K5I7970",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [241,48,650,516],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "images_900x600/_K5I7971",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [214,83,682,506],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7972",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [237,57,648,526],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7973",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [212,55,677,468],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7974",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [223,37,636,507],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7975",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [199,61,676,470],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7976",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [250,32,664,517],
+        "opis": ""
+     }
+    ]
+}, {
+    "album_id": 2,
+    "tytul": "After Hours",
+    "wykonawca": "The Weekend",
+    "zdjecia": [{
+        "nazwaPliku": "images_900x600/_K5I7977",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [181,75,648,480],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "images_900x600/_K5I7978",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [195,35,610,508],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "images_900x600/_K5I7979",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [184,54,650,466],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7980",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [212,16,627,487],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7981",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [153,55,627,463],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7982",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [200,23,606,492],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7983",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [160,58,632,478],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "images_900x600/_K5I7984",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [191,40,607,518],
+        "opis": ""
+     }
+    ]
+}]
