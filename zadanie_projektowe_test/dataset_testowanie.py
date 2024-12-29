@@ -69,8 +69,8 @@ class AlbumDataset(Dataset):
         }
         
         return zdjecie,etykiety
-
-dataset = AlbumDataset(plik_json='annotations.json', zdjecia_kat='images_900x600', transform=transforms.ToTensor())
+#uwazac na sciezke!!!
+dataset = AlbumDataset(plik_json='C:/Users/user/OneDrive/Desktop/kodowanie/MN/MN_projekt/metodyNumeryczne/zadanie_projektowe_test/annotations.json', zdjecia_kat='C:/Users/user/OneDrive/Desktop/kodowanie/MN/MN_projekt/metodyNumeryczne/zadanie_projektowe_test/images_900x600', transform=transforms.ToTensor())
 dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
 dataset_length=len(dataset)
 print('Liczba trenowanych zdjęć:',dataset_length)
