@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>_K5I8151.jpg</filename>
+	<path>C:\Users\zuzan\iCloudDrive\Studia II rok\Metody numeryczne\zadanie_projektowe\images\_K5I8151.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>album</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>202</xmin>
+			<ymin>65</ymin>
+			<xmax>614</xmax>
+			<ymax>530</ymax>
+		</bndbox>
+	</object>
+</annotation>

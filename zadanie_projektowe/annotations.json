@@ -1,0 +1,2320 @@
+[{
+    "album_id": 1,
+    "tytul": "Dawn FM",
+    "wykonawca": "The Weekend",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I7969",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [184,50,656,455],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I7970",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [239,44,652,512],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I7971",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [216,83,683,497],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7972",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [235,55,648,527],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I7973",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [210,48,678,461],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7974",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [222,36,636,506],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7975",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [197,57,669,470],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7976",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [251,37,657,512],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 2,
+    "tytul": "After Hours",
+    "wykonawca": "The Weekend",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I7977",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [179,73,648,481],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I7978",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [195,35,605,504],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I7979",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [184,53,648,461],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7980",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [213,16,624,485],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I7981",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [156,55,625,460],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7982",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [199,24,607,499],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7983",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [161,61,630,469],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7984",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [186,40,601,508],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 3,
+    "tytul": "Starboy",
+    "wykonawca": "The Weekend",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I7985",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [174,35,635,452],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I7986",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [192,18,613,494],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I7987",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [190,44,661,458],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7988",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [199,37,614,499],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I7989",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [159,42,633,457],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7990",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [207,29,616,494],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7991",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [176,80,653,487],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7992",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [181,66,594,543],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 4,
+    "tytul": "My Dear Melancholy",
+    "wykonawca": "The Weekend",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I7993",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [170,107,637,509],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I7994",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [200,41,610,502],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I7995",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [187,89,662,511],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7996",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [218,52,635,521],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I7997",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [157,84,624,491],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7998",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [203,60,621,531],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I7999",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [180,102,655,514],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8000",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [204,63,624,538],
+        "opis": "" 
+     }
+    ]
+},{
+    "album_id": 5,
+    "tytul": "Romantic Psycho",
+    "wykonawca": "Quebonafide",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8001",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [164,84,637,488],
+        "opis": "JPN Edition"
+    },
+    {
+       "nazwaPliku": "_K5I8002",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [202,75,618,563],
+        "opis": "JPN Edition"
+    },
+    {
+        "nazwaPliku": "_K5I8003",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [180,129,655,537],
+        "opis": "JPN Edition"
+     },
+     {
+        "nazwaPliku": "_K5I8004",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [211,91,631,556],
+        "opis": "JPN Edition" 
+     },
+     {
+        "nazwaPliku": "_K5I8005",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [178,111,662,530],
+        "opis": "JPN Edition"
+     },
+     {
+        "nazwaPliku": "_K5I8006",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [196,67,613,533],
+        "opis": "JPN Edition"
+     },
+     {
+        "nazwaPliku": "_K5I8007",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [175,124,648,532],
+        "opis": "JPN Edition"
+     },
+     {
+        "nazwaPliku": "_K5I8008",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [180,74,603,542],
+        "opis": "JPN Edition" 
+     }
+    ]
+}, {
+    "album_id": 6,
+    "tytul": "That Girl",
+    "wykonawca": "Natalia Lesz",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8009",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [144,125,625,536],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8010",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [211,102,623,558],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8011",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [191,122,665,531],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8012",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [194,86,608,552],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8013",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [160,102,634,517],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8014",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [203,55,615,519],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8015",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [173,101,642,508],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8016",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [231,85,648,555],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 7,
+    "tytul": "Najlepsza Muzyka na Wiosne 2014",
+    "wykonawca": "RMF FM",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I80017",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [179,116,650,519],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8018",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [222,93,637,562],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8019",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [177,118,651,541],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8020",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [206,82,627,535],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8021",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [191,127,664,540],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8022",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [224,86,644,558],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8023",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [188,124,660,537],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8024",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [214,97,631,552],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 8,
+    "tytul": "Piotr Szczepanik spiewa",
+    "wykonawca": "Piotr Szczepanik",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I80025",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [183,112,652,519],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8026",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [224,72,635,545],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8027",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [182,116,652,527],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8028",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [220,83,634,551],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8029",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [171,111,645,518],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8030",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [199,88,613,558],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8031",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [187,103,659,522],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8032",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [208,80,629,547],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 9,
+    "tytul": "Panasewicz",
+    "wykonawca": "Janusz Panasewicz",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I80033",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [173,66,658,501],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8034",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [185,51,627,515],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8035",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [178,68,654,495],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8036",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [212,39,648,509],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8037",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [194,68,680,503],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8038",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [220,61,661,532],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8039",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [189,96,661,524],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8040",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [223,66,660,532],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 10,
+    "tytul": "Three Cheers For Sweet Revenge",
+    "wykonawca": "My Chemical Romance",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8041",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [187,96,658,498],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8042",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [223,70,635,545],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8043",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [192,107,661,520],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8044",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [190,92,610,554],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8045",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [165,104,640,511],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8046",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [198,76,610,546],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8047",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [181,125,652,534],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8048",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [215,78,626,545],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 11,
+    "tytul": "Belaya Polasa",
+    "wykonawca": "Molchat Doma",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8049",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [189,130,662,543],
+        "opis": "z autografami w srodku"
+    },
+    {
+       "nazwaPliku": "_K5I8050",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [204,91,612,560],
+        "opis": "z autografami w srodku"
+    },
+    {
+        "nazwaPliku": "_K5I8051",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [181,130,659,545],
+        "opis": "z autografami w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8052",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [209,91,625,563],
+        "opis": "z autografami w srodku" 
+     },
+     {
+        "nazwaPliku": "_K5I8053",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [181,106,648,521],
+        "opis": "z autografami w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8054",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [177,65,602,532],
+        "opis": "z autografami w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8055",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [175,122,651,528],
+        "opis": "z autografami w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8056",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [227,76,639,547],
+        "opis": "z autografami w srodku" 
+     }
+    ]
+}, {
+    "album_id": 12,
+    "tytul": "Etazhi",
+    "wykonawca": "Molchat Doma",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8057",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [173,106,641,517],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8058",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [227,70,640,539],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8059",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [204,106,667,529],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8060",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [202,75,609,542],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8061",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [194,94,668,505],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8062",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [182,42,596,502],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8063",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [158,72,635,479],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8064",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [198,46,610,516],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 13,
+    "tytul": "Wesolych Swiat Kochanie",
+    "wykonawca": "Michal Pietrzak z zespolem",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8065",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [190,101,653,509],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8066",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [206,68,620,527],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8067",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [187,118,649,528],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8068",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [238,92,650,548],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8069",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [184,91,647,499],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8070",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [209,91,622,548],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8071",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [192,109,656,512],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8072",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [224,67,638,521],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 14,
+    "tytul": "Ride The Ligthning",
+    "wykonawca": "Metallica",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8076",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [196,143,615,550],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8077",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [213,141,623,553],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8078",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [239,139,660,547],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8079",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [213,130,623,535],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8080",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [223,131,639,539],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8081",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [210,131,620,545],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8082",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [218,119,635,527],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8083",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [229,122,647,527],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 15,
+    "tytul": "Reload",
+    "wykonawca": "Metallica",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8084",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [172,133,644,539],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8085",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [177,76,591,542],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8086",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [187,133,656,544],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8087",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [184,75,599,543],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8088",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [159,88,629,498],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8089",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [194,73,602,542],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8090",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [169,120,643,524],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8091",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [218,73,631,534],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 16,
+    "tytul": "Import/Export",
+    "wykonawca": "Malik Montana",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8092",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [164,119,638,526],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8093",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [207,89,620,557],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8094",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [194,120,665,543],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8095",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [219,86,635,560],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8096",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [184,107,653,514],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8097",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [212,68,623,532],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8098",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [192,106,657,513],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8099",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [217,73,631,543],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 17,
+    "tytul": "Tacy Sami",
+    "wykonawca": "Lady Pank",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8100",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [147,111,615,526],
+        "opis": "z autografami na okladce"
+    },
+    {
+       "nazwaPliku": "_K5I8101",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [201,93,614,542],
+        "opis": "z autografami na okladce"
+    },
+    {
+        "nazwaPliku": "_K5I8102",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [184,114,651,534],
+        "opis": "z autografami na okladce"
+     },
+     {
+        "nazwaPliku": "_K5I8103",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [186,73,600,527],
+        "opis": "z autografami na okladce" 
+     },
+     {
+        "nazwaPliku": "_K5I8104",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [162,106,629,516],
+        "opis": "z autografami na okladce"
+     },
+     {
+        "nazwaPliku": "_K5I8105",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [196,90,613,548],
+        "opis": "z autografami na okladce"
+     },
+     {
+        "nazwaPliku": "_K5I8106",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [199,109,660,510],
+        "opis": "z autografami na okladce"
+     },
+     {
+        "nazwaPliku": "_K5I8107",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [211,67,624,517],
+        "opis": "z autografami na okladce" 
+     }
+    ]
+}, {
+    "album_id": 18,
+    "tytul": "Ohyda",
+    "wykonawca": "Lady Pank",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8108",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [212,140,682,535],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8109",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [246,94,660,556],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8110",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [216,119,681,524],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8111",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [238,97,653,561],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8112",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [171,102,639,515],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8113",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [220,81,637,534],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8114",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [191,130,653,536],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8115",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [190,106,609,566],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 19,
+    "tytul": "Lady Pank - MTV Unplugged",
+    "wykonawca": "Lady Pank",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8116",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [207,77,628,526],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8117",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [192,84,652,497],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8118",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [218,64,639,514],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8119",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [186,67,648,480],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8120",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [198,62,616,524],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8121",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [154,86,613,502],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8122",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [200,55,625,505],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8123",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [182,81,641,493],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 20,
+    "tytul": "Lady Pank",
+    "wykonawca": "Lady Pank",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8126",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [205,130,684,529],
+        "opis": "w folii"
+    },
+    {
+       "nazwaPliku": "_K5I8127",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [242,91,658,558],
+        "opis": "w folii"
+    },
+    {
+        "nazwaPliku": "_K5I8128",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [199,106,668,525],
+        "opis": "w folii"
+     },
+     {
+        "nazwaPliku": "_K5I8129",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [209,79,618,535],
+        "opis": "w folii" 
+     },
+     {
+        "nazwaPliku": "_K5I8130",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [171,102,638,504],
+        "opis": "w folii"
+     },
+     {
+        "nazwaPliku": "_K5I8131",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [215,81,630,546],
+        "opis": "w folii"
+     },
+     {
+        "nazwaPliku": "_K5I8132",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [191,101,665,515],
+        "opis": "w folii"
+     },
+     {
+        "nazwaPliku": "_K5I8133",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [223,80,636,543],
+        "opis": "w folii" 
+     }
+    ]
+}, {
+    "album_id": 21,
+    "tytul": "Weselne Preludium",
+    "wykonawca": "Krzysztof Krawczyk",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8134",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [217,96,631,547],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8135",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [187,131,652,534],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8136",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [225,80,641,529],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8137",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [177,122,643,530],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8138",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [231,89,646,539],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8139",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [205,120,675,531],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8140",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [205,120,675,531],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8141",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [254,88,672,557],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 22,
+    "tytul": "...Roze ilosci najchetniej przyjmuja sie na grobach",
+    "wykonawca": "Kat",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8142",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [226,78,641,542],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8143",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [177,123,648,528],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8144",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [194,88,663,496],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8145",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [223,78,645,554],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8146",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [150,107,623,501],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8147",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [194,68,597,532],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8148",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [183,113,652,517],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8149",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [235,77,641,547],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 23,
+    "tytul": "Oddech Wymarlych Swiatow",
+    "wykonawca": "Kat",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8150",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [202,65,614,530],
+        "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8151",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [176,99,642,497],
+        "opis": ""
+    },
+    {
+        "nazwaPliku": "_K5I8152",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [218,60,631,525],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8153",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [182,90,654,484],
+        "opis": "" 
+     },
+     {
+        "nazwaPliku": "_K5I8154",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [222,49,631,514],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8155",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [222,49,631,514],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8156",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [168,79,635,486],
+        "opis": ""
+     },
+     {
+        "nazwaPliku": "_K5I8157",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [221,49,628,516],
+        "opis": "" 
+     }
+    ]
+}, {
+    "album_id": 24,
+    "tytul": "38 Minutes of Life",
+    "wykonawca": "Kat",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8158",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [164,96,633,501],
+        "opis": "nagranie z koncertow w Katowickim Spodku"
+    },
+    {
+       "nazwaPliku": "_K5I8159",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [213,70,622,540],
+        "opis": "nagranie z koncertow w Katowickim Spodku"
+    },
+    {
+        "nazwaPliku": "_K5I8160",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [179,104,646,517],
+        "opis": "nagranie z koncertow w Katowickim Spodku"
+     },
+     {
+        "nazwaPliku": "_K5I8161",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [223,64,633,529],
+        "opis": "nagranie z koncertow w Katowickim Spodku" 
+     },
+     {
+        "nazwaPliku": "_K5I8162",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [203,94,671,504],
+        "opis": "nagranie z koncertow w Katowickim Spodku"
+     },
+     {
+        "nazwaPliku": "_K5I8163",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [209,61,622,522],
+        "opis": "nagranie z koncertow w Katowickim Spodku"
+     },
+     {
+        "nazwaPliku": "_K5I8164",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [171,78,641,494],
+        "opis": "nagranie z koncertow w Katowickim Spodku"
+     },
+     {
+        "nazwaPliku": "_K5I8165",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [217,40,623,506],
+        "opis": "nagranie z koncertow w Katowickim Spodku" 
+     }
+    ]
+}, {
+    "album_id": 25,
+    "tytul": "Rough Times",
+    "wykonawca": "Kadavar",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8166",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [199,112,659,512],
+        "opis": "~tour edition~"
+    },
+    {
+       "nazwaPliku": "_K5I8167",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [202,68,616,523],
+        "opis": "~tour edition~"
+    },
+    {
+        "nazwaPliku": "_K5I8168",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [192,94,655,496],
+        "opis": "~tour edition~"
+     },
+     {
+        "nazwaPliku": "_K5I8169",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [212,81,629,540],
+        "opis": "~tour edition~" 
+     },
+     {
+        "nazwaPliku": "_K5I8170",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [166,116,631,527],
+        "opis": "~tour edition~"
+     },
+     {
+        "nazwaPliku": "_K5I8171",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [214,86,627,533],
+        "opis": "~tour edition~"
+     },
+     {
+        "nazwaPliku": "_K5I8172",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [180,121,645,532],
+        "opis": "~tour edition~"
+     },
+     {
+        "nazwaPliku": "_K5I8173",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [234,68,648,529],
+        "opis": "~tour edition~" 
+     }
+    ]
+}, {
+    "album_id": 26,
+    "tytul": "Wszystkie Oblicza Jana Borysewicza",
+    "wykonawca": "Jan Borysewicz",
+    "zdjecia": [{
+        "nazwaPliku": "_K5I8174",
+        "widok": "przod",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [195,91,658,485],
+        "opis": "z autografem na okladce oraz w srodku"
+    },
+    {
+       "nazwaPliku": "_K5I8175",
+        "widok": "przod",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [205,52,617,507],
+        "opis": "z autografem na okladce oraz w srodku"
+    },
+    {
+        "nazwaPliku": "_K5I8176",
+        "widok": "przod",
+        "orientacja": "do gory nogami",
+        "bbox": [175,93,638,502],
+        "opis": "z autografem na okladce oraz w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8177",
+        "widok": "przod",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [213,68,627,516],
+        "opis": "z autografem na okladce oraz w srodku" 
+     },
+     {
+        "nazwaPliku": "_K5I8178",
+        "widok": "tyl",
+        "orientacja": "poprawnie odwrocone",
+        "bbox": [204,96,663,494],
+        "opis": "z autografem na okladce oraz w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8179",
+        "widok": "tyl",
+        "orientacja": "odwrocone w lewo",
+        "bbox": [210,73,625,514],
+        "opis": "z autografem na okladce oraz w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8180",
+        "widok": "tyl",
+        "orientacja": "do gory nogami",
+        "bbox": [189,130,650,525],
+        "opis": "z autografem na okladce oraz w srodku"
+     },
+     {
+        "nazwaPliku": "_K5I8181",
+        "widok": "tyl",
+        "orientacja": "odwrocone w prawo",
+        "bbox": [243,89,657,532],
+        "opis": "z autografem na okladce oraz w srodku" 
+     }
+    ]
+}, {
+   "album_id": 27,
+   "tytul": "Bolilol Tour 4",
+   "wykonawca": "Illusion",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8182",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [180,92,648,496],
+       "opis": "rzadkie nagranie z koncertu w Elblagu"
+   },
+   {
+      "nazwaPliku": "_K5I8183",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [244,53,660,512],
+       "opis": "rzadkie nagranie z koncertu w Elblagu"
+   },
+   {
+       "nazwaPliku": "_K5I8184",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [200,78,670,479],
+       "opis": "rzadkie nagranie z koncertu w Elblagu"
+    },
+    {
+       "nazwaPliku": "_K5I8185",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [238,68,651,527],
+       "opis": "rzadkie nagranie z koncertu w Elblagu" 
+    },
+    {
+       "nazwaPliku": "_K5I8186",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [211,102,681,483],
+       "opis": "rzadkie nagranie z koncertu w Elblagu"
+    },
+    {
+       "nazwaPliku": "_K5I8187",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [216,63,631,528],
+       "opis": "rzadkie nagranie z koncertu w Elblagu"
+    },
+    {
+       "nazwaPliku": "_K5I8188",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [172,121,643,521],
+       "opis": "rzadkie nagranie z koncertu w Elblagu"
+    },
+    {
+       "nazwaPliku": "_K5I8189",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [213,81,627,543],
+       "opis": "rzadkie nagranie z koncertu w Elblagu" 
+    }
+   ]
+},  {
+   "album_id": 28,
+   "tytul": "Na Pohybel",
+   "wykonawca": "Hamulec",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8190",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [196,104,665,516],
+       "opis": "autografy w srodku"
+   },
+   {
+      "nazwaPliku": "_K5I8191",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [227,58,645,519],
+       "opis": "autografy w srodku"
+   },
+   {
+       "nazwaPliku": "_K5I8192",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [187,106,663,521],
+       "opis": "autografy w srodku"
+    },
+    {
+       "nazwaPliku": "_K5I8193",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [244,93,665,546],
+       "opis": "autografy w srodku" 
+    },
+    {
+       "nazwaPliku": "_K5I8194",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [1940,93,661,506],
+       "opis": "autografy w srodku"
+    },
+    {
+       "nazwaPliku": "_K5I8195",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [223,80,640,534],
+       "opis": "autografy w srodku"
+    },
+    {
+       "nazwaPliku": "_K5I8196",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [200,96,672,506],
+       "opis": "autografy w srodku"
+    },
+    {
+       "nazwaPliku": "_K5I8197",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [231,89,658,552],
+       "opis": "autografy w srodku" 
+    }
+   ]
+},  {
+   "album_id": 29,
+   "tytul": "Franek Kimono",
+   "wykonawca": "Piotr Fronczewski",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8198",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [190,120,665,544],
+       "opis": ""
+   },
+   {
+      "nazwaPliku": "_K5I8199",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [235,80,649,550],
+       "opis": ""
+   },
+   {
+       "nazwaPliku": "_K5I8200",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [189,134,666,547],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8201",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [275,98,693,566],
+       "opis": "" 
+    },
+    {
+       "nazwaPliku": "_K5I8202",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [198,129,676,543],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8203",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [227,93,642,560],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8204",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [214,125,696,537],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8205",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [255,79,674,550],
+       "opis": "" 
+    }
+   ]
+},  {
+   "album_id": 30,
+   "tytul": "Szlugi i Kalafiory",
+   "wykonawca": "Taco Hemingway",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8206",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [203,106,677,525],
+       "opis": ""
+   },
+   {
+      "nazwaPliku": "_K5I8207",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [228,78,653,541],
+       "opis": ""
+   },
+   {
+       "nazwaPliku": "_K5I8208",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [216,105,692,519],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8209",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [227,71,642,535],
+       "opis": "" 
+    },
+    {
+       "nazwaPliku": "_K5I8210",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [168,93,653,509],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8211",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [182,86,602,543],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8212",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [195,104,670,520],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8213",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [220,65,643,539],
+       "opis": "" 
+    }
+   ]
+}, {
+   "album_id": 31,
+   "tytul": "Cafe Belga",
+   "wykonawca": "Taco Hemingway",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8214",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [192,61,692,516],
+       "opis": ""
+   },
+   {
+      "nazwaPliku": "_K5I8215",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [194,47,656,525],
+       "opis": ""
+   },
+   {
+       "nazwaPliku": "_K5I8216",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [159,60,650,527],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8217",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [179,50,641,528],
+       "opis": "" 
+    },
+    {
+       "nazwaPliku": "_K5I8218",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [186,44,684,518],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8219",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [191,37,650,517],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8220",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [220,70,710,520],
+       "opis": ""
+    },
+    {
+       "nazwaPliku": "_K5I8221",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [227,70,691,553],
+       "opis": "" 
+    }
+   ]
+},  {
+   "album_id": 32,
+   "tytul": "ich troje ad.4",
+   "wykonawca": "Ich Troje",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8222",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [309,163,564,534],
+       "opis": "kaseta"
+   },
+   {
+      "nazwaPliku": "_K5I8223",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [272,258,629,496],
+       "opis": "kaseta"
+   },
+   {
+       "nazwaPliku": "_K5I8224",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [338,173,584,542],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8225",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [274,222,640,463],
+       "opis": "kaseta" 
+    },
+    {
+       "nazwaPliku": "_K5I8226",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [323,134,563,498],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8227",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [251,231,615,473],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8228",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [326,143,570,502],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8229",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [291,193,651,433],
+       "opis": "kaseta" 
+    }
+   ]
+},  {
+   "album_id": 33,
+   "tytul": "KING!",
+   "wykonawca": "T. Love",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8230",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [313,97,550,461],
+       "opis": "kaseta"
+   },
+   {
+      "nazwaPliku": "_K5I8231",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [248,197,625,440],
+       "opis": "kaseta"
+   },
+   {
+       "nazwaPliku": "_K5I8232",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [331,137,581,501],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8233",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [271,222,636,460],
+       "opis": "kaseta" 
+    },
+    {
+       "nazwaPliku": "_K5I8234",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [282,145,520,504],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8235",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [239,229,604,467],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8236",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [294,119,532,477],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8237",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [260,198,619,433],
+       "opis": "kaseta" 
+    }
+   ]
+}, {
+   "album_id": 34,
+   "tytul": "Miedzyzdroje",
+   "wykonawca": "Lady Pank",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8238",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [304,115,540,480],
+       "opis": "kaseta"
+   },
+   {
+      "nazwaPliku": "_K5I8239",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [267,233,635,475],
+       "opis": "kaseta"
+   },
+   {
+       "nazwaPliku": "_K5I8240",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [310,156,548,525],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8241",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [271,230,636,467],
+       "opis": "kaseta" 
+    },
+    {
+       "nazwaPliku": "_K5I8242",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [301,147,529,511],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8243",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [264,206,626,445],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8244",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [349,158,583,523],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8245",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [279,225,636,461],
+       "opis": "kaseta" 
+    }
+   ]
+},  {
+   "album_id": 35,
+   "tytul": "No Angel",
+   "wykonawca": "Dido",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8246",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [324,130,555,493],
+       "opis": "kaseta"
+   },
+   {
+      "nazwaPliku": "_K5I8247",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [253,220,613,461],
+       "opis": "kaseta"
+   },
+   {
+       "nazwaPliku": "_K5I8248",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [328,158,559,522],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8249",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [250,227,608,470],
+       "opis": "kaseta" 
+    },
+    {
+       "nazwaPliku": "_K5I8250",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [275,124,523,489],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8251",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [257,211,618,445],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8252",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [330,140,564,499],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8253",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [279,204,640,438],
+       "opis": "kaseta" 
+    }
+   ]
+}, {
+   "album_id": 36,
+   "tytul": "Melancholy",
+   "wykonawca": "Cemetery Scream",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8254",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [290,125,532,484],
+       "opis": "kaseta"
+   },
+   {
+      "nazwaPliku": "_K5I8255",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [247,195,610,425],
+       "opis": "kaseta"
+   },
+   {
+       "nazwaPliku": "_K5I8256",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [326,111,559,475],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8257",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [273,189,634,427],
+       "opis": "kaseta" 
+    },
+    {
+       "nazwaPliku": "_K5I8258",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [327,129,563,498],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8259",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [243,206,606,439],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8260",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [308,127,540,493],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8261",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [253,204,609,447],
+       "opis": "kaseta" 
+    }
+   ]
+},  {
+   "album_id": 37,
+   "tytul": "Abducted",
+   "wykonawca": "Hypocrisy",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8262",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [299,119,528,475],
+       "opis": "kaseta"
+   },
+   {
+      "nazwaPliku": "_K5I8263",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [255,206,621,441],
+       "opis": "kaseta"
+   },
+   {
+       "nazwaPliku": "_K5I8264",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [344,160,578,520],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8265",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [287,250,654,484],
+       "opis": "kaseta" 
+    },
+    {
+       "nazwaPliku": "_K5I8266",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [327,147,574,509],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8267",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [286,231,658,472],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8268",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [340,135,580,501],
+       "opis": "kaseta"
+    },
+    {
+       "nazwaPliku": "_K5I8269",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [271,201,640,441],
+       "opis": "kaseta" 
+    }
+   ]
+},   {
+   "album_id": 38,
+   "tytul": "ADRIA-ART.PL ZAPRASZA",
+   "wykonawca": "Adria-Art.pl",
+   "zdjecia": [{
+       "nazwaPliku": "_K5I8270",
+       "widok": "przod",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [275,84,622,565],
+       "opis": "ulotka z koncertu, promocja wydarzen"
+   },
+   {
+      "nazwaPliku": "_K5I8271",
+       "widok": "przod",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [229,165,715,502],
+       "opis": "ulotka z koncertu, promocja wydarzen"
+   },
+   {
+       "nazwaPliku": "_K5I8272",
+       "widok": "przod",
+       "orientacja": "do gory nogami",
+       "bbox": [281,92,628,571],
+       "opis": "ulotka z koncertu, promocja wydarzen"
+    },
+    {
+       "nazwaPliku": "_K5I8273",
+       "widok": "przod",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [271,167,758,501],
+       "opis": "ulotka z koncertu, promocja wydarzen" 
+    },
+    {
+       "nazwaPliku": "_K5I8274",
+       "widok": "tyl",
+       "orientacja": "poprawnie odwrocone",
+       "bbox": [286,70,633,545],
+       "opis": "ulotka z koncertu, promocja wydarzen"
+    },
+    {
+       "nazwaPliku": "_K5I8275",
+       "widok": "tyl",
+       "orientacja": "odwrocone w lewo",
+       "bbox": [250,169,740,516],
+       "opis": "ulotka z koncertu, promocja wydarzen"
+    },
+    {
+       "nazwaPliku": "_K5I8276",
+       "widok": "tyl",
+       "orientacja": "do gory nogami",
+       "bbox": [294,88,645,566],
+       "opis": "ulotka z koncertu, promocja wydarzen"
+    },
+    {
+       "nazwaPliku": "_K5I8277",
+       "widok": "tyl",
+       "orientacja": "odwrocone w prawo",
+       "bbox": [190,188,685,532],
+       "opis": "ulotka z koncertu, promocja wydarzen" 
+    }
+   ]
+}
+]
