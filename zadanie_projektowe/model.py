@@ -25,7 +25,7 @@ class AlbumClassifier(nn.Module):
         self.fc_layers = nn.Sequential(
             nn.Linear(self.flattened_size, 128),  # Dostosowanie wymiaru wejściowego
             nn.ReLU(),
-            nn.Linear(128, 8)  # 8 klas wyjściowych (widok i orientacja)
+            nn.Linear(128, 38) #38 roznych klas do rozpoznawania
         )
 
     def forward(self, x):

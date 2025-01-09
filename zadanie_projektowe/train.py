@@ -34,17 +34,17 @@ for epoch in range(num_epochs):  # Iteracja przez wszystkie epoki
     running_loss = 0.0  # Inicjalizacja straty
 
     for images, labels in dataloader:  # Iteracja przez partie danych
-        images = images.to(device)  # Przeniesienie obrazów na GPU/CPU
-        targets = torch.tensor([0 if widok == 'przod' else 1 for widok in labels['widok']]).to(device)  # Przygotowanie etykiet
+        images = images.to(device)
+        labels = labels.to(device)
 
         # Forward pass
-        outputs = model(images)  # Obliczenie wyników modelu
-        loss = criterion(outputs, targets)  # Obliczenie straty
+        outputs = model(images)
+        loss = criterion(outputs, labels)
 
         # Backward pass
-        optimizer.zero_grad()  # Wyzerowanie gradientów
-        loss.backward()  # Obliczenie gradientów
-        optimizer.step()  # Aktualizacja wag modelu
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
 
         running_loss += loss.item()  # Dodanie straty do sumy
 

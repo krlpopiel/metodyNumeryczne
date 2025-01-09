@@ -8,38 +8,29 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 
 class AlbumDataset(Dataset):
-    def __init__ (self, plik_json, zdjecia_kat, transform=None):
-        # Ścieżka względna do pliku JSON
+    def __init__(self, plik_json, zdjecia_kat, transform=None):
         with open(plik_json, 'r') as f:
             self.etykiety = json.load(f)
-            
+        
         self.zdjecia_kat = zdjecia_kat
         self.transform = transforms.Compose([
             transforms.ToTensor()
         ])
         self.zdjecia_info = []
 
+        # Zbierz wszystkie id_albumu
+        album_ids = set()
         for album in self.etykiety:
-            album_id = album['album_id']
-            tytul = album['tytul']
-            wykonawca = album['wykonawca']
+            album_ids.add(album['album_id'])
             for zdjecie in album['zdjecia']:
-                nazwaPliku = zdjecie['nazwaPliku']
-                widok = zdjecie['widok']
-                orientacja = zdjecie['orientacja']
-                bbox = zdjecie['bbox']
-                opis = zdjecie['opis']
                 self.zdjecia_info.append({
-                    'album_id': album_id,
-                    'tytul': tytul,
-                    'wykonawca': wykonawca,
-                    'nazwaPliku': nazwaPliku,
-                    'widok': widok,
-                    'orientacja': orientacja,
-                    'bbox': bbox,
-                    'opis': opis
+                    'album_id': album['album_id'],
+                    'nazwaPliku': zdjecie['nazwaPliku']
                 })
-       
+        
+        # Mapowanie id_albumu na indeksy klas
+        self.album_id_to_index = {album_id: idx for idx, album_id in enumerate(sorted(album_ids))}
+
     def __len__(self):
         return len(self.zdjecia_info)
 
@@ -50,27 +41,15 @@ class AlbumDataset(Dataset):
         if not nazwaPliku.endswith('.jpg'):
             nazwaPliku += '.jpg'
         
-        # Ścieżka względna do obrazu
         zdj_sciezka = os.path.join(self.zdjecia_kat, nazwaPliku)
-
-        # Załaduj obraz
         zdjecie = np.array(Image.open(zdj_sciezka).convert("RGB"))
         if self.transform:
             zdjecie = self.transform(zdjecie)
 
-        # Zwróć etykiety
-        etykiety = {
-            'album_id': torch.tensor(zdj_info['album_id'], dtype=torch.long),
-            'tytul': zdj_info['tytul'],
-            'wykonawca': zdj_info['wykonawca'],
-            'nazwaPliku': zdj_info['nazwaPliku'],
-            'widok': zdj_info['widok'],
-            'orientacja': zdj_info['orientacja'],
-            'bbox': torch.tensor(zdj_info['bbox'], dtype=torch.float),
-            'opis': zdj_info['opis']
-        }
-        
-        return zdjecie, etykiety
+        # Mapowanie id_albumu na indeks klasy
+        etykieta = torch.tensor(self.album_id_to_index[zdj_info['album_id']], dtype=torch.long)
+        return zdjecie, etykieta
+
 
 # Ścieżki względne do pliku JSON i katalogu z obrazami
 plik_json = 'zadanie_projektowe/annotations.json'  # Plik JSON w tym samym katalogu
@@ -81,3 +60,7 @@ dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
 
 dataset_length = len(dataset)
 print('Liczba trenowanych zdjęć:', dataset_length)
+
+liczba_klas = len(set([zdj['album_id'] for zdj in dataset.zdjecia_info]))
+
+print('Liczba unikalnych do rozpoznania albumow: ', liczba_klas)
