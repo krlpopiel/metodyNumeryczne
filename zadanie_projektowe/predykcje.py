@@ -8,7 +8,7 @@ from model import AlbumClassifier  # Zaimportuj klasę modelu
 
 # Załaduj model
 model = AlbumClassifier()  # Użyj tej samej klasy modelu, co w czasie trenowania
-model.load_state_dict(torch.load('zadanie_projektowe/album_classifier.pth'))  # Załaduj stan modelu
+model.load_state_dict(torch.load('album_classifier.pth'))  # Załaduj stan modelu
 model.eval()  # Przełącz model na tryb testowy
 
 def test_model_on_image(image_path, model):
@@ -32,9 +32,8 @@ def test_model_on_image(image_path, model):
     return predicted.item()  # Zwróć przewidywaną klasę
 
 # Ścieżka do zdjęcia, które chcesz przetestować
-image_path = 'zadanie_projektowe/zdjecia_do_predykcji/test2.jpg'
+image_path = 'zadanie_projektowe/zdjecia_do_predykcji/test.jpg'
 
 # Testowanie modelu na obrazie
 predicted_class = test_model_on_image(image_path, model)
-
-print(f'Predykcja dla zdjęcia {image_path}: Klasa {predicted_class}')
+print(f'Predykcja dla zdjęcia {image_path}: id_albumu {predicted_class}')
