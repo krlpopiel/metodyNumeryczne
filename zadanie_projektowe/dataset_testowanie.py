@@ -71,6 +71,7 @@ class AlbumDataset(Dataset):
         
         return zdjecie,etykiety
 #uwazac na sciezke!!!
+#dataset = AlbumDataset(plik_json=r'C:\Users\zuzan\OneDrive\Pulpit\metodyNumeryczne\zadanie_projektowe\annotations.json', zdjecia_kat=r'C:\Users\zuzan\OneDrive\Pulpit\metodyNumeryczne\zadanie_projektowe\images', transform=transforms.ToTensor())
 dataset = AlbumDataset(plik_json='zadanie_projektowe/annotations.json', zdjecia_kat='zadanie_projektowe/images', transform=transforms.ToTensor())
 dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
 dataset_length=len(dataset)
