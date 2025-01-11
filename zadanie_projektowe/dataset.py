@@ -1,66 +1,83 @@
-import os
 import torch
-import json
-import numpy as np
-from PIL import Image
-from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
 from torchvision import transforms
+from PIL import Image
+import json
+import os
+import random
+import matplotlib.patches as patches
+import matplotlib.pyplot as plt
 
 class AlbumDataset(Dataset):
     def __init__(self, plik_json, zdjecia_kat, transform=None):
+        # Wczytaj plik JSON z adnotacjami
         with open(plik_json, 'r') as f:
             self.etykiety = json.load(f)
         
         self.zdjecia_kat = zdjecia_kat
-        self.transform = transforms.Compose([
-            transforms.ToTensor()
-        ])
-        self.zdjecia_info = []
+        self.transform = transform
+        self.image_paths = []
+        self.bboxes = []
+        self.labels = []
 
-        # Zbierz wszystkie id_albumu
-        album_ids = set()
+        # Przygotowanie ścieżek do zdjęć, bboxów i etykiet albumów
         for album in self.etykiety:
-            album_ids.add(album['album_id'])
+            album_id = album['album_id']
             for zdjecie in album['zdjecia']:
-                self.zdjecia_info.append({
-                    'album_id': album['album_id'],
-                    'nazwaPliku': zdjecie['nazwaPliku']
-                })
-        
-        # Mapowanie id_albumu na indeksy klas
-        self.album_id_to_index = {album_id: idx for idx, album_id in enumerate(sorted(album_ids))}
+                image_name = zdjecie['nazwaPliku'] + '.jpg'  # Zakładając, że obrazy mają rozszerzenie .jpg
+                image_path = os.path.join(self.zdjecia_kat, image_name)
+                bbox = zdjecie['bbox']
+                self.image_paths.append(image_path)
+                self.bboxes.append(bbox)
+                self.labels.append(album_id)
 
     def __len__(self):
-        return len(self.zdjecia_info)
+        return len(self.image_paths)
 
-    def __getitem__(self, index):
-        zdj_info = self.zdjecia_info[index]
-        nazwaPliku = zdj_info['nazwaPliku']
+    def __getitem__(self, idx):
+        # Załaduj obrazek
+        image = Image.open(self.image_paths[idx]).convert("RGB")
+        bbox = self.bboxes[idx]
+        label = self.labels[idx]
         
-        if not nazwaPliku.endswith('.jpg'):
-            nazwaPliku += '.jpg'
-        
-        zdj_sciezka = os.path.join(self.zdjecia_kat, nazwaPliku)
-        zdjecie = np.array(Image.open(zdj_sciezka).convert("RGB"))
+        # Walidacja bbox
+        left, upper, right, lower = bbox
+        if right <= left:
+            right = left + 1  # Ustaw poprawne wartości
+        if lower <= upper:
+            lower = upper + 1  # Ustaw poprawne wartości
+
+        # Przytnij obrazek do wyznaczonego bbox
+        cropped_image = image.crop((left, upper, right, lower))
+
+        # Zastosuj transformacje (jeśli są zdefiniowane)
         if self.transform:
-            zdjecie = self.transform(zdjecie)
+            cropped_image = self.transform(cropped_image)
 
-        # Mapowanie id_albumu na indeks klasy
-        etykieta = torch.tensor(self.album_id_to_index[zdj_info['album_id']], dtype=torch.long)
-        return zdjecie, etykieta
+        return cropped_image, label  # Zwróć obrazek i etykietę albumu (bbox już nie jest potrzebny)
 
+# Przykład transformacji (jeśli są używane)
+transform = transforms.Compose([
+    transforms.Resize((224, 224)),  # Dopasuj rozmiar do modelu
+    transforms.ToTensor(),  # Przekształć obraz na tensor
+])
 
-# Ścieżki względne do pliku JSON i katalogu z obrazami
-plik_json = 'zadanie_projektowe/annotations.json'  # Plik JSON w tym samym katalogu
-zdjecia_kat = 'zadanie_projektowe/images'  # Katalog z obrazami w tym samym katalogu
+# Ścieżki do plików
+plik_json = 'zadanie_projektowe/annotations.json'
+zdjecia_kat = 'zadanie_projektowe/images'
 
-dataset = AlbumDataset(plik_json=plik_json, zdjecia_kat=zdjecia_kat, transform=transforms.ToTensor())
-dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
-
+# Utwórz instancję datasetu
+dataset = AlbumDataset(plik_json=plik_json, zdjecia_kat=zdjecia_kat, transform=transform)
+"""
+# TEST
 dataset_length = len(dataset)
-print('Liczba trenowanych zdjęć:', dataset_length)
+random_index = random.randint(0, dataset_length - 1)
+zdjecie, label = dataset[random_index]  
 
-liczba_klas = len(set([zdj['album_id'] for zdj in dataset.zdjecia_info]))
+# Rysowanie obrazu (bez bbox)
+fig, ax = plt.subplots(1)
+ax.imshow(zdjecie.permute(1, 2, 0))  # Konwersja z Tensor na obraz
 
-print('Liczba unikalnych do rozpoznania albumow: ', liczba_klas)
+plt.title(f"Album ID: {label}")
+plt.show()
+"""
