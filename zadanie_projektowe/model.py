@@ -2,34 +2,34 @@ import torch.nn as nn
 import torch
 
 class AlbumClassifier(nn.Module):
-    def __init__(self):
+    def __init__(self, num_classes):
         super(AlbumClassifier, self).__init__()
 
         # Warstwy konwolucyjne
         self.conv_layers = nn.Sequential(
-            nn.Conv2d(3, 16, kernel_size=3, stride=1, padding=1),  # Pierwsza warstwa konwolucyjna
+            nn.Conv2d(3, 16, kernel_size=3, stride=1, padding=1),
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2),  # Pooling, zmniejsza rozmiar o połowę
-            nn.Conv2d(16, 32, kernel_size=3, stride=1, padding=1),  # Druga warstwa konwolucyjna
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Conv2d(16, 32, kernel_size=3, stride=1, padding=1),
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2)  # Pooling, zmniejsza rozmiar o połowę
+            nn.MaxPool2d(kernel_size=2, stride=2)
         )
 
         # Sprawdzanie rozmiaru wyjścia po warstwach konwolucyjnych
-        example_input = torch.zeros(1, 3, 900, 600)  # Zakładając, że wejście to 900x600
+        example_input = torch.zeros(1, 3, 224, 224)  # Rozmiar obrazu
         with torch.no_grad():
             conv_output = self.conv_layers(example_input)
-            self.flattened_size = conv_output.numel()  # Obliczenie rozmiaru po konwolucjach
+            self.flattened_size = conv_output.numel()
 
         # Warstwy w pełni połączone
         self.fc_layers = nn.Sequential(
-            nn.Linear(self.flattened_size, 128),  # Dostosowanie wymiaru wejściowego
+            nn.Linear(self.flattened_size, 128),
             nn.ReLU(),
-            nn.Linear(128, 38) #38 roznych klas do rozpoznawania
+            nn.Linear(128, 39)  # Liczba klas odpowiada liczbie albumów
         )
 
     def forward(self, x):
-        x = self.conv_layers(x)  # Przejście przez warstwy konwolucyjne
-        x = x.view(x.size(0), -1)  # Spłaszczenie przed wejściem do warstw liniowych
-        x = self.fc_layers(x)  # Przejście przez warstwy liniowe
+        x = self.conv_layers(x)
+        x = x.view(x.size(0), -1)
+        x = self.fc_layers(x)
         return x

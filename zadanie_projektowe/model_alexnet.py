@@ -1,0 +1,14 @@
+import torch.nn as nn
+from torchvision.models import alexnet, AlexNet_Weights
+
+def get_alexnet(num_classes=39, pretrained=True):
+    if pretrained:
+        weights = AlexNet_Weights.DEFAULT
+        model = alexnet(weights=weights)
+    else:
+        model = alexnet(weights=None)
+
+    model.classifier[6] = nn.Linear(model.classifier[6].in_features, num_classes)
+    model.transform = weights.transforms() if pretrained else None
+
+    return model

@@ -1,39 +1,50 @@
-import torch  # Framework do głębokiego uczenia
-from torch.utils.data import DataLoader  # Narzędzie do ładowania danych w partiach
-from torch.optim import Adam  # Optymalizator Adam
-from torch.nn import CrossEntropyLoss  # Funkcja kosztu do klasyfikacji
-from dataset import AlbumDataset  # Import niestandardowego zbioru danych
-from model import AlbumClassifier  # Import modelu
+import torch
+from torch.utils.data import DataLoader
+from torch.optim import Adam
+from torch.nn import CrossEntropyLoss  # Używamy CrossEntropyLoss dla klasyfikacji
+from dataset import AlbumDataset
+from model import AlbumClassifier
 from torchvision import transforms
 
 # Przygotowanie danych
 transform = transforms.Compose([
-    transforms.Resize((224, 224)),  # Ustawienie rozmiaru obrazu
-    transforms.ToTensor()
+    transforms.Resize((224, 224)),  # Dopasowanie rozmiaru
+    transforms.ToTensor(),
 ])
-# Przygotowanie danych
+
+# Tworzymy dataset
 dataset = AlbumDataset(
-    plik_json='zadanie_projektowe/annotations.json',  # Ścieżka do pliku JSON z etykietami
-    zdjecia_kat='zadanie_projektowe/images',  # Katalog ze zdjęciami
-    transform=None  # Brak dodatkowych transformacji (można dodać później)
+    plik_json='zadanie_projektowe/annotations.json',
+    zdjecia_kat='zadanie_projektowe/images',
+    transform=transform
 )
-dataloader = DataLoader(dataset, batch_size=4, shuffle=True)  # Ładowanie danych w partiach po 4, z losowaniem
+
+# Modyfikacja etykiet, aby były w zakresie od 1 do 38
+for album in dataset.etykiety:
+    album_id = album['album_id']  # Pobieramy album_id z albumu
+    for zdj in album['zdjecia']:
+        zdj['album_id'] = album_id  # Ustawiamy album_id w każdym zdjęciu
+
+
+# Tworzenie DataLoader
+dataloader = DataLoader(dataset, batch_size=8, shuffle=True)
 
 # Inicjalizacja modelu
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # Wykorzystanie GPU, jeśli dostępne
-model = AlbumClassifier().to(device)  # Przeniesienie modelu na GPU/CPU
+num_classes = len(set([zdj['album_id'] for album in dataset.etykiety for zdj in album['zdjecia']]))  # Liczba unikalnych albumów
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model = AlbumClassifier(num_classes=num_classes).to(device)
 
 # Funkcja kosztu i optymalizator
-criterion = CrossEntropyLoss()  # Funkcja kosztu dla klasyfikacji wieloklasowej
-optimizer = Adam(model.parameters(), lr=0.001)  # Optymalizator Adam z małym współczynnikiem uczenia
+criterion = CrossEntropyLoss()  # CrossEntropyLoss dla klasyfikacji
+optimizer = Adam(model.parameters(), lr=0.001)
 
 # Trenowanie
-num_epochs = 10  # Liczba epok treningu
-for epoch in range(num_epochs):  # Iteracja przez wszystkie epoki
-    model.train()  # Przełączenie modelu w tryb treningowy
-    running_loss = 0.0  # Inicjalizacja straty
+num_epochs = 50
+for epoch in range(num_epochs):
+    model.train()
+    running_loss = 0.0
 
-    for images, labels in dataloader:  # Iteracja przez partie danych
+    for images, labels in dataloader:  
         images = images.to(device)
         labels = labels.to(device)
 
@@ -46,9 +57,9 @@ for epoch in range(num_epochs):  # Iteracja przez wszystkie epoki
         loss.backward()
         optimizer.step()
 
-        running_loss += loss.item()  # Dodanie straty do sumy
+        running_loss += loss.item()
 
-    print(f"Epoch {epoch+1}/{num_epochs}, Loss: {running_loss/len(dataloader)}")  # Wyświetlenie straty po każdej epoce
+    print(f"Epoch {epoch+1}/{num_epochs}, Loss: {running_loss/len(dataloader)}")
 
 # Zapisz model
-torch.save(model.state_dict(), 'album_classifier.pth')  # Zapisanie wag modelu do pliku
+torch.save(model.state_dict(), 'album_classifier.pth')
