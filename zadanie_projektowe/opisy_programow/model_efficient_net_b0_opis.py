@@ -10,7 +10,7 @@ def get_efficientnet_b0(num_classes=39, pretrained=True): #chcąc korzystać z p
         model = efficientnet_b0(weights=None) #dla wartości pretrained=False model tworzony jest bez domyślnych wag, z losowymi wartosciami
 
     #dostosowanie ostatniej warstwy (w pełni połączonej) w modelu do ilość swoich danych
-    #in_features wskazuje oryginalną liczbę klasyfikowanych etykiet - 1000
+    #in_features wskazuje oryginalną liczbę klasyfikowanych etykiet - 1000 (źródło - Keras, dokładny link w sprawozdaniu)
     #num_classes wskazuje jaką ilosć etykiet ma klasyfikować model - 39, zgodnie ze zbiorem danych
     num_ftrs = model.classifier[1].in_features
     model.classifier[1] = nn.Linear(num_ftrs, num_classes)

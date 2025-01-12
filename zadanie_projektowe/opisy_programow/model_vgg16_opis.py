@@ -11,6 +11,6 @@ def get_vgg16(num_classes=39, pretrained=True):
 
     #dostosowanie ostatniej warstwy (w pełni połączonej) w modelu do ilość swoich danych
     model.classifier[6] = nn.Linear(model.classifier[6].in_features, num_classes)
-    #in_features wskazuje oryginalną liczbę klasyfikowanych etykiet - 1000
+    #in_features wskazuje oryginalną liczbę klasyfikowanych etykiet - 1000 (źródło - GeeksForGeeks, dokładny link w sprawozdaniu)
     #num_classes wskazuje jaką ilosć etykiet ma klasyfikować model - 39, zgodnie ze zbiorem danych
     return model #zwwrócenie utworzonego modelu

@@ -70,7 +70,7 @@ transform = transforms.Compose([ #Compose łączy obydwie transformacje w jedną
     transforms.ToTensor(),  #przekształcenie obrazu na tensor (!patrz slownik.txt), czyli format danych obliczeniowych PyTorch
 ])
 
-#podanie niedokładnych ścieżek do plików, na ich podstawie moduł os znajdzie dokładne ścieżki
+#podanie wstępnych ścieżek do plików, na ich podstawie moduł os znajdzie dokładne ścieżki
 plik_json = 'zadanie_projektowe/annotations.json'
 zdjecia_kat = 'zadanie_projektowe/images'
 

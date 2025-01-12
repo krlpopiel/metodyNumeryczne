@@ -10,7 +10,7 @@ def get_resnet50(num_classes=39, pretrained=True):
         model = resnet50(weights=None) #dla wartości pretrained=False model tworzony jest bez domyślnych wag, z losowymi wartosciami
     
     #dostosowanie ostatniej warstwy (w pełni połączonej) w modelu do ilość swoich danych
-    #in_features wskazuje oryginalną liczbę klasyfikowanych etykiet - 1000
+    #in_features wskazuje oryginalną liczbę klasyfikowanych etykiet - 1000 (źródło - Roboflow, dokładny link w sprawozdaniu)
     #num_classes wskazuje jaką ilosć etykiet ma klasyfikować model - 39, zgodnie ze zbiorem danych
     model.fc = nn.Linear(model.fc.in_features, num_classes)
     return model #zwrócenie uwtorzonego modelu
