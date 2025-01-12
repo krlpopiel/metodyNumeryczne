@@ -93,16 +93,34 @@ def process_images_in_folder(folder_path, models, json_file): #parametry - folde
         plt.imshow(img) #wyświetlenie przetwarzanego obrazu
         plt.title(f"Obraz: {image_file}") #wydruk nazwy obrazu
         plt.show() #wyświetlenie obrazu i tytułu
+        
+#funkcja ładująca plik z wyuczonymi wagami dla wskazanego modelu PyTorch
+#parametry - klasa modelu, którego plik należy wczytać, liczba klas, ścieżka do pliku .pth
+def load_model_with_weights(model_class, num_classes, weights_path):
+    model = model_class(num_classes=num_classes) #przypisanie odpowiedniego modelu z wagami do zmiennej model
+    model.load_state_dict(torch.load(weights_path))  #wczytanie stanu modelu ze wskazanego pliku
+    model.eval()  #ustawienie modelu w tryb ewaluacji (!patrz slownik.txt), czyli tryb oceny wydajności modelu
+#aby trenowanie było stabilne, ewaluacja deaktywuje niektóre neurony, np dla warstwy dropout która losowo ustawia wartości wejścia na 0
+#ewaluacja umożliwia działanie warstwy batch_normalization, która przyśpiesza trening, dzięki normalizacji danych wejściowych m.in przez skalowanie ich
+    return model #zwrócenie modelu z załadownymi wagami
+
+#podanie ścieżek do odpowiednich plików i wskazanie dla jakiego modelu jest dany plik
+weights_paths = {
+    "ResNet50": "model_resnet50.pth",
+    "VGG16": "model_vgg16.pth",
+    "AlexNet": "model_alexnet.pth",
+    "EfficientNet B0": "model_efficientnet_b0.pth",
+}
 
 #inicjalizacja obiektu klasy zawierającej odpowiednie modele, wykorzystane do klasyfikacji i predykcji
 model_loader = ModelLoader(num_classes=39)
 
 #lista zawierająca nazwe modeli i odpowiednie wywołanie funkcji
 models = {
-    "ResNet50": model_loader.load_resnet50(pretrained=True),
-    "VGG16": model_loader.load_vgg16(pretrained=True),
-    "AlexNet": model_loader.load_alexnet(pretrained=True),
-    "EfficientNet B0": model_loader.load_efficientnet_b0(pretrained=True),
+    "ResNet50": model_loader.load_resnet50(weights_path="model_resnet50.pth"),
+    "VGG16": model_loader.load_vgg16(weights_path="model_vgg16.pth"),
+    "AlexNet": model_loader.load_alexnet(weights_path="model_alexnet.pth"),
+    "EfficientNet B0": model_loader.load_efficientnet_b0(weights_path="model_efficientnet_b0.pth"),
 }
 
 #podanie odpowiedniej ścieżki do folderu

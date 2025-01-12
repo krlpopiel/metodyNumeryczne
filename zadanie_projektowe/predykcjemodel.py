@@ -69,14 +69,28 @@ def process_images_in_folder(folder_path, models, json_file):
         plt.title(f"Obraz: {image_file}")
         plt.show()
 
-model_loader = ModelLoader(num_classes=39)
+def load_model_with_weights(model_class, num_classes, weights_path):
+    model = model_class(num_classes=num_classes)
+    model.load_state_dict(torch.load(weights_path))
+    model.eval() 
+    return model
+
+weights_paths = {
+    "ResNet50": "model_resnet50.pth",
+    "VGG16": "model_vgg16.pth",
+    "AlexNet": "model_alexnet.pth",
+    "EfficientNet B0": "model_efficientnet_b0.pth",
+}
+
+model_loader = ModelLoader(default_num_classes=39)
 
 models = {
-    "ResNet50": model_loader.load_resnet50(pretrained=True),
-    "VGG16": model_loader.load_vgg16(pretrained=True),
-    "AlexNet": model_loader.load_alexnet(pretrained=True),
-    "EfficientNet B0": model_loader.load_efficientnet_b0(pretrained=True),
+    "ResNet50": model_loader.load_resnet50(weights_path="model_resnet50.pth"),
+    "VGG16": model_loader.load_vgg16(weights_path="model_vgg16.pth"),
+    "AlexNet": model_loader.load_alexnet(weights_path="model_alexnet.pth"),
+    "EfficientNet B0": model_loader.load_efficientnet_b0(weights_path="model_efficientnet_b0.pth"),
 }
+
 
 folder_path = 'zadanie_projektowe/zdjecia_do_predykcji'
 

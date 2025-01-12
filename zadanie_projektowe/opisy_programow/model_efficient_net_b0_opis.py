@@ -1,8 +1,10 @@
 import torch.nn as nn #zaimportowanie modułu biblioteki PyTorch zawierającej potrzebne funkcje, wykorzystywane przy pracy z sieciami neuronowymi
 from torchvision.models import efficientnet_b0, EfficientNet_B0_Weights #zaimportowanie gotowego modelu EfficientNet_B0 z biblioteki PyTorch oraz jego domyślne (wytrenowane) wagi
+import torch #biblioteka importująca framework PyTorch, wykorzystywana do uczenia maszynowego
 
 #zainicjalizowanie modelu, ma on klasyfikować obrazy dla 39 etykiet (album_id) i wskazuje, ze ma on korzystać z wstępnie wytrenowanych parametrów
-def get_efficientnet_b0(num_classes=39, pretrained=True): #chcąc korzystać z przetrenowanego modelu, następuje pobranie jego domyślnych wag
+#wskazanie pliku ze stanem wag modelu
+def get_efficientnet_b0(num_classes=39, pretrained=True, weights_path=None): #chcąc korzystać z przetrenowanego modelu, następuje pobranie jego domyślnych wag
     if pretrained:
         weights = EfficientNet_B0_Weights.DEFAULT
         model = efficientnet_b0(weights=weights) #utworzenie modelu z odpowiednimi wagami
@@ -15,7 +17,7 @@ def get_efficientnet_b0(num_classes=39, pretrained=True): #chcąc korzystać z p
     num_ftrs = model.classifier[1].in_features
     model.classifier[1] = nn.Linear(num_ftrs, num_classes)
 
-    #pobranie odpowiednich transfromacji dla modelu, jeśli model ma korzystać z przetrenowanych parametrów
-    model.transform = weights.transforms() if pretrained else None
+    if weights_path:  #jeśli podano ścieżke do pliku .pth następuje jego załadowanie (załadowanie zapisanych wcześniej wag modelu)
+        model.load_state_dict(torch.load(weights_path))
 
     return model #zwrócenie utworzonego modelu
