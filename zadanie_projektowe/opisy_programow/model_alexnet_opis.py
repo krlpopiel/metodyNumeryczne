@@ -1,5 +1,5 @@
 import torch.nn as nn #zaimportowanie modułu biblioteki PyTorch zawierającej potrzebne funkcje, wykorzystywane przy pracy z sieciami neuronowymi
-from torchvision.models import alexnet, AlexNet_Weights #zaimportowanie gotowego modelu EfficientNet_B0 z biblioteki PyTorch oraz jego domyślne (wytrenowane) wagi
+from torchvision.models import alexnet, AlexNet_Weights #zaimportowanie gotowego modelu AlexNet z biblioteki PyTorch oraz jego domyślne (wytrenowane) wagi
 
 #zainicjalizowanie modelu, ma on klasyfikować obrazy dla 39 etykiet (album_id) i wskazuje, ze ma on korzystać z wstępnie wytrenowanych parametrów
 def get_alexnet(num_classes=39, pretrained=True):
