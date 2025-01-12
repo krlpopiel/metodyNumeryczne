@@ -4,18 +4,15 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 from model_loader import ModelLoader
-from dataset import AlbumDataset  # Załóżmy, że masz już zaimplementowany dataset
+from dataset import AlbumDataset
 
-# Ustawienia
 batch_size = 32
 num_epochs = 50
 learning_rate = 0.001
 num_classes = 39
 
-# Wybór modelu
 model_choice = 'efficientnet_b0'  # 'resnet50' 'vgg16', 'alexnet', 'efficientnet_b0'
 
-# Przygotowanie danych
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
@@ -27,7 +24,6 @@ train_dataset = AlbumDataset(plik_json='zadanie_projektowe/annotations.json',
                              transform=transform)
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 
-# Załaduj odpowiedni model
 model_loader = ModelLoader(num_classes=num_classes)
 
 if model_choice == 'resnet50':
@@ -41,15 +37,12 @@ elif model_choice == 'efficientnet_b0':
 else:
     raise ValueError("Invalid model choice")
 
-# Ustawienie urządzenia (GPU lub CPU)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-# Optymalizator i funkcja straty
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 criterion = nn.CrossEntropyLoss()
 
-# Trening
 for epoch in range(num_epochs):
     model.train()
     running_loss = 0.0
@@ -76,7 +69,6 @@ for epoch in range(num_epochs):
     epoch_acc = 100 * correct / total
     print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.2f}%')
 
-# Zapisz model po treningu
 model_save_path = f"model_{model_choice}.pth"
 torch.save(model.state_dict(), model_save_path)
 

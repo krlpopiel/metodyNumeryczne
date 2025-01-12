@@ -1,0 +1,84 @@
+Słownik pojęć:
+*linki do stron źródłowych zamieszczone są w sprawozdaniu, sekcja Źródła
+
+dataset - zbiór danych, zawiera odpowiednie informacje takie jak ścieżka do obrazów czy ich etykiety,  
+	 odczytywany jest przy pomocy klasy bazowej Dataset biblioteki PyTorch, odpowiednio przygotowane dzięki niej dane są załadowywane w partiach do pliku, aby móc z nich korzystać podczas trenowania modelu
+	*(źródło - Blog Krzysztofa Sopyła, dokumentacja PyTorch)
+
+model - struktura reprezentująca funkcję, wykorzystywana w uczeniu maszynowym, przewiduje dane wyjściowe na podstawie danych wejściowych wykorzystując różne algorytmy,
+	w kontekście PyTorch model implementowany jest jako klasa, dziedzicząca po torch.nn.Module
+	*(źródło - SAP, Blog Sages)
+
+predykcja - proces przewidywanych wyników uzyskanych przez model na podstawie danych historycznych, czyli już wcześniej użytych w trenowaniu modelu, podczas predykcji
+	   program podaje przewidzianą klasę (etykietę) obiektu
+	  *(źródło - Blog Leafio)
+
+warstwa konwolucyjna - warstwa, która "przetwarza dane wejściowe za pomocą filtrów (kerneli) aplikowanych w sposób przesuwający się po całym obrazie",
+			jest podstawowym elementem sieci neuronowych
+			*(źródło: Blog Boring Owl, blog Mirosława Mamczura)
+
+filtr (kernel) - "przekształcenie macierzowe fragmentów zdjęcia, które ma na celu wydobycie informacji o konkretnych cechach obrazu", takimi cechami są np. kolor czy krawędzie zdjęcia,
+		są one wykorzystywane w procesie klasyfikacji zdjęcia
+		*(źródło: Blog Boring Owl, blog Mirosława Mamczura)
+
+
+tensor - podstawa obliczeniowa biblioteki PyTorch, można "przyjąć, że jest to uogólnienie macierzy (czyli dwuwymiarowego tensora) na przestrzeń wielowymiarową",
+	w kontekście biblioteki, jest to obiekt klasy Tensor (macierz wielowymiarowa zawierająca elementy jednego typu danych)
+ 	*(źródło - magazyn Just Join It, dokumentacja PyTorch)
+
+
+klasyfikacja obrazów - proces przypisania sprawdzanych danych (w tym przypadku obrazów), do jakiejś wskazanej klasy (etykiety, kategorii), 
+			najpierw definiuje się zestaw obiektów do zidentyfikowania na obrazie, następnie trenuje model tak, aby był w stanie je rozpoznać na przykładowym zdjęciu
+			*(źródło - Google Developers, Blog Sages)
+
+mapowanie cech - "technika do identyfikowania wzorców i relacji między cechami zbioru danych. Obejmuje ona analizę danych i wykreślanie relacji między różnymi cechami zbioru danych",
+		mapy cech są macierzami zawierającymi wyodrębnione cechy z danych wejściowych
+		*(źródło - Blog Mind the Graph, artykuł IGI Global)
+
+gradienty w warstwie konwolucyjnej - zmienia wartości wag ("determinuje siłę i znaczenie sygnału przesyłanego między neuronami.") w warstwie po obliczeniach, w wyniku propagacji wstecznej 				    (korekcja błędu pomiędzy danymi wejściowymi a wyjściowymi)
+				    *(źródło - artykuł Coursera, artykuł Feb, prezentacja AGH)
+
+batch (partia) - ilości próbek (danych), które są przetwarzane przez model podczas jednego kroku obliczeniowego
+		*(źródło - artykuł Sabrepc)
+
+trenowanie modelu - "W trakcie treningu model sztucznej inteligencji jest eksponowany na przygotowany zbiór danych i stara się nauczyć wzorców i relacji występujących w danych. Proces ten 		     obejmuje dostosowywanie wewnętrznych parametrów modelu na podstawie danych wejściowych i pożądanego wyniku"
+		    *(źródło - artykuł ServerParts)
+
+epoch - "definiuje ile razy algorytm uczenia będzie działał na pełnym zestawie danych. Jeden epoch oznacza, że ​​każda próbka w zbiorze danych treningowych będzie miała okazję zaktualizować 	parametry modelu wewnętrznego"
+	*(źródło - Blog BullDogJob)
+
+plik .pth - plik, który "zazwyczaj zawiera serializowany słownik stanu PyTorch . Słownik stanu PyTorch to słownik Pythona, który zawiera stan modelu PyTorch, w tym wagi modelu, odchylenia i 	   inne parametry"
+	  *(źródło - artykuł Medium)
+
+ewaluacja - proces oceny wydajności wytrenowanego modelu na danych, które nie były używane podczas treningu, pokazuje jak dobrze model generalizuje przewidywania nowych danych,
+	    tryb ten zapewnia również, że model zachowuje się re 
+
+bounding box - najmniejszy prostokąt kompletnie otaczający dany obiekt, w tym przypadku na zdjęciu
+		*(źródło - Wikipedia)
+
+warstwa w pełni połączona (fc/fully connected) - "rodzaj warstwy w sieci neuronowej, w której każdy neuron jest połączony z każdym neuronem w poprzedniej warstwie. 
+						Wyjście każdego neuronu w w pełni połączonej warstwie jest obliczane poprzez pobranie ważonej sumy wejść i przepuszczenie jej przez funkcję 						aktywacji 
+						Dzięki temu sieć może uczyć się złożonych wzorców i relacji w danych."
+						*(źródło - artykuł EITC)
+
+funkcja aktywacji - wprowadza nieliniowość do modelu, dzięki czemu jest on w stanie rozwiązać bardziej złożone problemy transformuje dane wejściowe za pomocą sumy ważonej do danych 			   wejściowych, przykładem użytym w projekcie jest funkcja ReLu - przekształca ona dane w taki sposób 1) jeśli podana wartość < 0, zwraca 0 2) jeśli wartość >=0 zwraca 		   podaną wartość, do tego jest prosta i szybko działa
+		  *(źródło - blog Promptowy, Google Developers)
+
+warstwa dropout - " polega na losowym ustawieniu wychodzących krawędzi ukrytych jednostek (neuronów tworzących ukryte warstwy) na 0 przy każdej aktualizacji fazy treningu. Metoda ta jest 		   bardzo efektywna, ponieważ co każde przejście losowo wyłączane są połączenia. Dzięki temu sieć neuronowa nie nauczy się „na pamięć” zbyt szybko"
+	 	*(źródło - blog Mirosława Mamczura)
+
+warstwa batch_normalization - tak zwana normalizacja wsadowa, przyśpiesza i zwiększa stabilność treningu dzięki normalizacji danych wejściowych - ponownie jest centrując i skalując,
+			 	ustalane są średnie i wariancje wprowadzonych danych wejściowych
+				*(źródło - Wikipedia)
+
+overfitting - przeuczenie, nadmierne dopasowanie, "model tak dobrze pasuje (zapamiętuje) do zbioru danych treningowych, że nie jest w stanie trafnie prognozować na podstawie nowych danych"
+	     *(źródło - Google Developers)
+
+funkcja kosztu - "mierzy wydajność modelu uczenia maszynowego dla danych danych . Funkcja kosztu kwantyfikuje błąd między przewidywanymi i oczekiwanymi wartościami i przedstawia ten błąd w 		postaci pojedynczej liczby rzeczywistej", funkcja powinna być pomniejszana lub powiększana - dla pierwszego zwraca błąd lub strate, dla drugiego  zwraca nagrodę, czyli jak 		największe wartości
+		przydatna do klasyfikowania obrazów, dostępna jest dzięki klasie CrossEntropyLoss z biblioteki Pytroch, modułu nn
+		jeśli jest użyta, dostarcza opcjonalny argument - wagi modelu powinny być wektorem jednowymiarowym, dzięki temu łatwiej jest trenować niesymetryczne zbiory danych
+		*(źródło - artykuł BuiltIn, dokumentacja PyTorch)
+
+warstwa łączenia (max pooling) - stopniowo redukuje wymiar obrazu, kontroluje aby nie doszło do przeuczenia modelu oraz wyodrębnia cechy na obrazie (np. kolor, tekstura)
+				dzięki niej oszczędzane są zasoby obliczeniowe podczas klasyfikacji
+				*(źródło - artykuł Dremio)
