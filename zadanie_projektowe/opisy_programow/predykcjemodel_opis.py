@@ -15,7 +15,7 @@ def load_image(image_path):
     transform = transforms.Compose([ #połączenie obydwu transofrmacji w jedno
         transforms.Resize((224, 224)),  #przeskalowanie obrazu do rozmiaru 224x224, wartość ta jest kompatybilna z używanymi modelami
         transforms.ToTensor(), #przekształcenie obrazu na tensor (!patrz slownik.txt), czyli format danych obliczeniowych PyTorch
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),  #obraz zostaje znormalizowany, aby model Inception_v3 działal poprawnie,
+        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),  #obraz zostaje znormalizowany, aby modele działały poprawnie,
         #model ten został wytrenowany na zbiorze ImageNet, przez co nowe dane muszą zostać do niego dopasowane, aby model działał prawidłowo
         #mean - średnia wartość do trzech kanałów RGB, std - odchylenie standardowe dla tych kanałów
     ])
