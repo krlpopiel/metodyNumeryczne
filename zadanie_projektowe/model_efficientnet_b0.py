@@ -12,7 +12,6 @@ def get_efficientnet_b0(num_classes=39, pretrained=True, weights_path=None):
     num_ftrs = model.classifier[1].in_features
     model.classifier[1] = nn.Linear(num_ftrs, num_classes)
 
-    # Wczytaj wagi z pliku, jeśli podano ścieżkę
     if weights_path:
         model.load_state_dict(torch.load(weights_path))
 

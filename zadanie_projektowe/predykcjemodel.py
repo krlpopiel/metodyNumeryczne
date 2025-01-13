@@ -69,14 +69,12 @@ def process_images_in_folder(folder_path, models, json_file):
         plt.title(f"Obraz: {image_file}")
         plt.show()
 
-# Dodajemy funkcję do ładowania wag z plików .pth
 def load_model_with_weights(model_class, num_classes, weights_path):
     model = model_class(num_classes=num_classes)
-    model.load_state_dict(torch.load(weights_path))  # Wczytanie wag z pliku .pth
-    model.eval()  # Ustawienie modelu w tryb ewaluacji
+    model.load_state_dict(torch.load(weights_path))
+    model.eval() 
     return model
 
-# Przykładowe ścieżki do plików wag dla modeli
 weights_paths = {
     "ResNet50": "model_resnet50.pth",
     "VGG16": "model_vgg16.pth",
@@ -84,7 +82,6 @@ weights_paths = {
     "EfficientNet B0": "model_efficientnet_b0.pth",
 }
 
-# Inicjalizacja modelu loadera
 model_loader = ModelLoader(default_num_classes=39)
 
 models = {

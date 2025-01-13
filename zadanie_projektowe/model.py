@@ -5,7 +5,6 @@ class AlbumClassifier(nn.Module):
     def __init__(self, num_classes):
         super(AlbumClassifier, self).__init__()
 
-        # Warstwy konwolucyjne
         self.conv_layers = nn.Sequential(
             nn.Conv2d(3, 16, kernel_size=3, stride=1, padding=1),
             nn.ReLU(),
@@ -15,17 +14,15 @@ class AlbumClassifier(nn.Module):
             nn.MaxPool2d(kernel_size=2, stride=2)
         )
 
-        # Sprawdzanie rozmiaru wyjścia po warstwach konwolucyjnych
-        example_input = torch.zeros(1, 3, 224, 224)  # Rozmiar obrazu
+        example_input = torch.zeros(1, 3, 224, 224) 
         with torch.no_grad():
             conv_output = self.conv_layers(example_input)
             self.flattened_size = conv_output.numel()
 
-        # Warstwy w pełni połączone
         self.fc_layers = nn.Sequential(
             nn.Linear(self.flattened_size, 128),
             nn.ReLU(),
-            nn.Linear(128, 39)  # Liczba klas odpowiada liczbie albumów
+            nn.Linear(128, 39)
         )
 
     def forward(self, x):

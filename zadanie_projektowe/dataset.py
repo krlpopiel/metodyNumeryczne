@@ -10,7 +10,6 @@ import matplotlib.pyplot as plt
 
 class AlbumDataset(Dataset):
     def __init__(self, plik_json, zdjecia_kat, transform=None):
-        # Wczytaj plik JSON z adnotacjami
         with open(plik_json, 'r') as f:
             self.etykiety = json.load(f)
         
@@ -20,11 +19,10 @@ class AlbumDataset(Dataset):
         self.bboxes = []
         self.labels = []
 
-        # Przygotowanie ścieżek do zdjęć, bboxów i etykiet albumów
         for album in self.etykiety:
             album_id = album['album_id']
             for zdjecie in album['zdjecia']:
-                image_name = zdjecie['nazwaPliku'] + '.jpg'  # Zakładając, że obrazy mają rozszerzenie .jpg
+                image_name = zdjecie['nazwaPliku'] + '.jpg' 
                 image_path = os.path.join(self.zdjecia_kat, image_name)
                 bbox = zdjecie['bbox']
                 self.image_paths.append(image_path)
@@ -35,38 +33,31 @@ class AlbumDataset(Dataset):
         return len(self.image_paths)
 
     def __getitem__(self, idx):
-        # Załaduj obrazek
         image = Image.open(self.image_paths[idx]).convert("RGB")
         bbox = self.bboxes[idx]
         label = self.labels[idx]
         
-        # Walidacja bbox
         left, upper, right, lower = bbox
         if right <= left:
-            right = left + 1  # Ustaw poprawne wartości
+            right = left + 1 
         if lower <= upper:
-            lower = upper + 1  # Ustaw poprawne wartości
+            lower = upper + 1
 
-        # Przytnij obrazek do wyznaczonego bbox
         cropped_image = image.crop((left, upper, right, lower))
 
-        # Zastosuj transformacje (jeśli są zdefiniowane)
         if self.transform:
             cropped_image = self.transform(cropped_image)
 
-        return cropped_image, label  # Zwróć obrazek i etykietę albumu (bbox już nie jest potrzebny)
+        return cropped_image, label
 
-# Przykład transformacji (jeśli są używane)
 transform = transforms.Compose([
-    transforms.Resize((224, 224)),  # Dopasuj rozmiar do modelu
-    transforms.ToTensor(),  # Przekształć obraz na tensor
+    transforms.Resize((224, 224)),
+    transforms.ToTensor(),
 ])
 
-# Ścieżki do plików
 plik_json = 'zadanie_projektowe/annotations.json'
 zdjecia_kat = 'zadanie_projektowe/images'
 
-# Utwórz instancję datasetu
 dataset = AlbumDataset(plik_json=plik_json, zdjecia_kat=zdjecia_kat, transform=transform)
 """
 # TEST
